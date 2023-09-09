@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  color: #ffa500 !important;
+}
+
+input[type="radio"] {
+  accent-color: #ffa500 !important;
+}
+
+option,
+select {
+  color: #ffa500;
+}
